@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>领域王国微交易-注册开户</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reginster.css"/>
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script src='js/nav.js'></script>
+	</head>
+
+	<body>
+		<div class="nav-height" id="navHeight">
+			<div class="header" id="header">
+				<div class="container">
+					<div class="logo">
+						<img src="img/logo.png" alt="领域王国微交易"/>
+					</div>
+					<nav class="nav-wrap" id="nav-wrap">
+						<ul class="clearfix">
+							<li><a class="active" href="index.html">首页</a></li>
+							<li><span class="jiaoyi" onclick="window.open('https://www.kingexc.com/trade.html')">交易</span></li>
+							<li><a href="javascript:;">操作流程</a></li>
+							<li><a href="javascript:;">平台优势</a></li>
+							<li><a href="javascript:;">新闻资讯</a></li>
+							<li><a href="javascript:;">优惠活动</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<a class="registration" href="">立即注册</a>
+		</div>
+		
+		<div class="register-box">
+			<div class="container">
+				<h2>注册账户 / <span>Account number</span></h2>
+				<div class="register-cont">
+					<form data-id="kingdom-register-form" target="" action="{{config('app.web_base_domain')}}/register" method="post">
+						<!--{{ csrf_field() }}-->
+	        			<div class="form-group">
+							<label class="t" for="p_name"><span class="red">*</span>姓：</label>
+							<input name="LastName" class="form-control" type="text" id="r-surname" placeholder="为保障您的资金安全，请填写真实姓名" />
+						</div>
+						<div class="form-group">
+							<label class="t" for="p_phone"><span class="red">*</span>名：</label>
+							<input name="FirstName" class="form-control" type="text" id="r-name" placeholder="为保障您的资金安全，请填写真实姓名" />
+						</div>
+						<div class="form-group">
+							<label class="t" for="p_weixin"><span class="red">*</span>QQ号码：</label>
+							<input name="QQ" class="form-control" type="text" id="r-qq" placeholder=" 请填写您的QQ号码" />
+						</div>
+						<div class="form-group">
+							<label class="t" for="p_mail"><span class="red">*</span>电子邮箱：</label>
+							<input name="Email" class="form-control" type="text" id="r-email" placeholder="此邮箱作为您的交易账户，请确保真实有效" />
+						</div>
+						<div class="form-group">
+							<label class="t" for="p_address"><span class="red">*</span>设置密码：</label>
+							<input name="Password" class="form-control" type="password" id="rr-password" placeholder=" 密码为 6-18位长度" />
+						</div>
+						<div class="form-group">
+							<label class="t" for="p_code"><span class="red">*</span>确认密码：</label>
+							<input name="Confirm" class="form-control" type="password" id="r-confirm" placeholder="再次输入确认密码" />
+						</div>
+						<div class="form-group">
+							<label class="t" for="p_blank"><span class="red">*</span>手机号码：</label>
+							<input name="Phone" class="form-control" type="text" id="r-phone" placeholder="请填写您本人的手机号码名" />
+						</div>
+						<div class="form-group yz">
+							<label class="t" for="p_number"><span class="red">*</span>验证码：</label>
+							<input name="Code" data-id="code"  class="form-control" type="text" id="r-code" placeholder="请输入手机验证码" />
+							<input class="code" type="button" name="code" data-id="get-code" pattern="" value="获取验证码">
+						</div>
+						<div style="clear: both"></div>
+			        	<div class="tiaokuan">
+							<p class="p-a"><input type="checkbox" name="Term" class="input_check" checked="checked">我已阅读并同意<br><a href="https://www.kingexc.com/regulations/term.html">条款协议</a>和<a href="https://www.kingexc.com/regulations/privacy.html">隐私政策</a></p>
+							<p class="tijiao"><input type="button" class="btn" data-id="register-btn" value="立即注册"></p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<div class="footer">
+			<div class="container">
+				<div class="cont1">
+					<div class="cont1-l">
+						<div class="call">
+							<ul>
+								<li>
+									<img src="img/phone.png" alt="" />
+									<p><span>客服热线</span><span>400-128-8021</span></p>
+								</li>
+								<li>
+									<img src="img/qq.png" alt="" />
+									<p><span>客服QQ</span><span>800184601</span></p>
+								</li>
+								<li>
+									<img src="img/qq.png" alt="" />
+									<p><span>加盟QQ</span><span>800184601</span></p>
+								</li>
+							</ul>
+						</div>
+						<div  class="copyright">
+							<p>版权所有：Copyright©2016-1019  领域王国控股集团</p>
+							<p>快速通道：<a href="">微盘▕</a><a href="">微交易▕</a><a href="">云交易▕</a><a href="">微交易平台▕</a><a href="">微交易系统▕</a><a href="">正规交易平台▕</a><a href="">专业交易系统</a></p>
+						</div>
+					</div>
+					<div class="cont1-r">
+						<img src="img/ewm.jpg" alt="扫码开户" />
+						<p>【扫码开户】</p>
+					</div>
+				</div>
+				<div class="cont2">
+					<p>风险提示：从事诸如外汇交易和差价合约等杠杆交易具有极高风险。您承担的风险不应超出您的承受范围因为您的损失可能超出您最初的投资，在您尚未完全了解您的的损失之前，请不要进行交易。在进行任何交易之前，必须确保完全理解所涉及的风险，必要时寻求独立的意见。查看完整的<a class="red" href="https://www.kingexc.com/regulations/risk.html">风险披露</a></p>
+				</div>
+			</div>
+		</div>
+
+		<script>
+            $(document).ready(function(){
+                $(document).on("scroll",function(){
+                    if($(window).scrollTop()>40){
+                        $(".header").addClass("navFix");
+                    }else{
+                        $(".header").removeClass("navFix");
+                    }
+                });
+            });
+            
+            $(".header").each(function(index1) {
+			$(this).click(function() {
+				window.location.href = "index.html";
+				localStorage.setItem("", index1);
+			})
+			$(".nav-wrap li").eq(localStorage.getItem("")).addClass("active").siblings("li").removeClass("active");
+		});
+
+        </script>
+	</body>
+
+</html>

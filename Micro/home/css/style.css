@@ -1,0 +1,140 @@
+.header{
+	height: 78px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.main .top-muen{
+	height: 100px;
+}
+.main .top-muen .top-muen-l{
+	float: left;
+}
+.main .top-muen .top-muen-l p{
+	line-height: 100px;
+}
+.main .top-muen .top-muen-l p a{
+	color: #555;
+}
+.main .top-muen .top-muen-r{
+	float: right;
+}
+.main .top-muen .top-muen-r ul li{
+	float: left;
+	line-height: 100px;
+	padding: 0 20px;
+}
+.main .top-muen .top-muen-r ul li a{
+	display: block;
+	line-height: 100px;
+	color: #555;
+}
+.main .top-muen .top-muen-r ul li a.active{
+	color: #2b51b0;
+}
+.main .top-muen .top-muen-r ul li a:hover{
+	color: #2b51b0;
+}
+.listBox{
+	padding-bottom: 60px;
+}
+.main .listBox .list li{
+	margin-top: 40px;
+    min-height: 154px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ededed;
+}
+.main .listBox .list li .d-left{
+	float:left;
+    width: 260px;
+    margin-right: 50px;
+}
+.main .listBox .list li .d-left img{
+	width: 252px;
+    height: 150px;
+}
+.main .listBox .list li .d-right{
+	float: left;
+	width: 62%;
+}
+.main .listBox .list li .d-right h2{
+    color: #2b51b0;
+    font-size: 18px;
+}
+.main .listBox .list li .d-right p{
+    margin-top: 16px;
+    color: #555;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    line-height: 1.8em;
+    font-size: 16px;
+}
+.main .listBox .list li .d-time{
+	float: right;
+}
+.main .listBox .list li .d-time .more{
+	float: right;
+    width: 92px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #555;
+    display: block;
+    text-align: center;
+    color: #555;
+    font-size: 16px;
+    margin-right: 0;
+    margin-top: 90px;
+}
+.main .listBox .list li .d-time .more:hover{
+	background: #888;
+	color: #fff;
+	border: 1px solid #888;
+}
+
+
+/*文章内页*/
+.articleCont{
+	padding-bottom: 85px;
+}
+.articleCont .article-top h2{
+    font-size: 26px;
+    color: #2b51b0;
+    text-align: center;
+}
+.articleCont .article-top .page-title{
+	line-height: 50px;
+    border-bottom: 1px solid #c8c8c8;
+    margin-bottom: 22px;
+    text-align: center;
+}
+.articleCont .article-top .page-title span{
+    margin-right: 52px;
+    color: #7c7c7c;
+}
+.articleCont .article-top h3{
+	font-size: 16px;
+	 color: #2b51b0;
+	 margin: 30px 0px;
+}
+.articleCont .article-top h4{
+	font-size: 16px;
+	margin: 10px 0;
+}
+.articleCont .article-top p{
+	font-size: 14px;
+	color: #555;
+}
+
+.article-bottom{
+	margin-top: 76px;
+}
+
+.article-bottom ul li{
+	margin-bottom: 15px;
+}
+.article-bottom ul li a {
+	color: #2B51B0;
+	font-size: 16px;
+}

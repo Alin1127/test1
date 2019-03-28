@@ -1,0 +1,318 @@
+.top-logo{
+	height: 1.14rem;
+	background: #fff;
+	overflow: hidden;
+    box-shadow: 1px 1px 8px 1px #ededed;
+    -webkit-box-shadow: 1px 1px 8px 1px #ededed;
+    -moz-box-shadow: 1px 1px 8px 1px #ededed;
+}
+.top-logo p img{
+	display: block;
+	margin: auto;
+	width: 3.69rem;
+    padding-top: 0.28rem;
+}
+.top-logo p{
+	padding:0  0.2rem;
+	line-height: 1.14rem;
+	text-align: center;
+    color: #fff;
+    font-size: 0.5rem;
+}
+.top-logo .black{
+	float: left;
+}
+.top-logo a i{
+	color: #2B51B0;
+    font-size: 0.62rem;
+}
+
+.tit-page{
+	height: 0.98rem;
+	line-height: 0.98rem;
+	margin: 0.2rem 0;
+}
+.tit-page ul li{
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+.tit-page ul li a{
+	font-size: 0.36rem;
+	display: block;
+	color: #656565;
+	font-weight: bold;
+}
+.tit-page ul li a.on{
+	color: #2a51b0;
+	border-bottom: #2a51b0 1px solid;
+}
+
+.information-box{
+    padding: 0 0.26rem;
+	padding-bottom: 1.2rem;
+}
+.information-cont{
+    margin-top: 0.5rem;
+}
+.information-cont .information-list li {
+    margin-top: 0.4rem;
+    min-height: 2.7rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid #ededed;
+}
+.information-cont .information-list li .d-left,.information-cont .information-list li .d-right{
+	float: left;
+}
+.information-cont .information-list li .d-left{
+	width: 3.5rem;
+}
+.information-cont .information-list li .d-left img{
+    width: 3.46rem;
+    height: 2.52rem;
+}
+.information-cont .information-list li .d-right{
+    width: 5.5rem;
+    margin-left: 0.3rem;
+}
+.information-cont .information-list li .d-right h2 {
+    color: #2b51b0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    line-height: 0.6rem;
+    font-size: 0.36rem;
+}
+.information-cont .information-list li .d-right p {
+    margin-top:0.2rem;
+    color: #555;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 0.6rem;
+    font-size: 0.36rem;
+}
+.information-cont .information-list li .time {
+	float: left;
+}
+.information-cont .information-list li .d-time .more{
+	width: 1.22rem;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #555;
+    display: block;
+    text-align: center;
+    color: #555;
+    font-size: 0.36rem;
+    margin-right: 0;
+    margin-top: 90px;
+}
+.information-cont .information-list li .d-time .more:hover{
+	background: #888;
+	color: #fff;
+	border: 1px solid #888;
+}
+
+/*文章内页*/
+.detail-box{
+	padding: 0 0.26rem 1.01rem 0.26rem;
+}
+.title-detail{
+	border-bottom: 1px solid #ECECEC;
+    overflow: hidden;
+	padding-bottom: 0.26rem;
+}
+.title-detail h2{
+	margin-top: 0.6rem;
+    margin-bottom: 0.3rem;
+	font-size: 0.4rem;
+	color: #454545;
+	text-align: center;
+}
+.title-detail p{
+	color:#888;
+	font-size: 0.36rem;
+	padding: 0 1rem;
+}
+.title-detail p .span1{
+	float: left;
+	font-size: 0.36rem;
+}
+.title-detail p .span2{
+	float: right;
+	font-size: 0.36rem;
+}
+.cont-detail p {
+    color: #888;
+    font-size: 0.36rem;
+    text-indent: 2em;
+    line-height: 0.56rem;
+}
+.cont-detail p img,.cont-detail img{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+.cont-detail{
+	margin-top: 0.26rem;
+}
+
+/*上一篇*/
+.ny-bottom{
+	padding: 0.2rem 0.26rem 1.01rem 0.26rem;
+}
+.ny-bottom p{
+	font-size: 0.36rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    color: #888;
+    line-height: 0.68rem;
+    padding: 0.2rem;
+    box-shadow: 1px 1px 8px 1px #ededed;
+    -webkit-box-shadow: 1px 1px 8px 1px #ededed;
+    -moz-box-shadow: 1px 1px 8px 1px #ededed;
+}
+.ny-bottom p a{
+	color: #888;
+	font-size: 0.36rem;
+	margin-left: 0.3rem;
+}
+.next_p{
+	margin-top: 0.2rem;
+}
+
+.next_span{
+    margin-left: 10px;
+}
+
+/*分页*/
+.pagination {
+	display: inline-block;
+	padding-left: 0;
+	margin: 22px 0;
+	border-radius: 4px
+}
+
+.pagination>li {
+	display: inline
+}
+
+.pagination>li>a,
+.pagination>li>span {
+	position: relative;
+	float: left;
+	padding: 6px 12px;
+	line-height: 1.6;
+	text-decoration: none;
+	color: #3097d1;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	margin-left: -1px;
+	font-size: 0.36rem;
+}
+
+.pagination>li:first-child>a,
+.pagination>li:first-child>span {
+	margin-left: 0;
+	border-bottom-left-radius: 4px;
+	border-top-left-radius: 4px
+}
+
+.pagination>li:last-child>a,
+.pagination>li:last-child>span {
+	border-bottom-right-radius: 4px;
+	border-top-right-radius: 4px
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+	z-index: 2;
+	color: #216a94;
+	background-color: #eee;
+	border-color: #ddd
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+	z-index: 3;
+	color: #fff;
+	background-color: #3097d1;
+	border-color: #3097d1;
+	cursor: default;
+}
+
+.pagination>.disabled>a,
+.pagination>.disabled>a:focus,
+.pagination>.disabled>a:hover,
+.pagination>.disabled>span,
+.pagination>.disabled>span:focus,
+.pagination>.disabled>span:hover {
+	color: #777;
+	background-color: #fff;
+	border-color: #ddd;
+	cursor: not-allowed
+}
+
+.pagination-lg>li>a,
+.pagination-lg>li>span {
+	padding: 10px 16px;
+	font-size: 18px;
+	line-height: 1.3333333
+}
+
+.pagination-lg>li:first-child>a,
+.pagination-lg>li:first-child>span {
+	border-bottom-left-radius: 6px;
+	border-top-left-radius: 6px
+}
+
+.pagination-lg>li:last-child>a,
+.pagination-lg>li:last-child>span {
+	border-bottom-right-radius: 6px;
+	border-top-right-radius: 6px
+}
+
+.pagination-sm>li>a,
+.pagination-sm>li>span {
+	padding: 5px 10px;
+	font-size: 12px;
+	line-height: 1.5
+}
+
+.pagination-sm>li:first-child>a,
+.pagination-sm>li:first-child>span {
+	border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px
+}
+
+.pagination-sm>li:last-child>a,
+.pagination-sm>li:last-child>span {
+	border-bottom-right-radius: 3px;
+	border-top-right-radius: 3px
+}
+
+.pager {
+	padding-left: 0;
+	margin: 22px 0;
+	list-style: none;
+	text-align: center
+}
+.pagination>.active>span{
+    font-size: 0.36rem;
+}
+.pagination>li:first-child>span{
+    font-size: 0.36rem;
+}

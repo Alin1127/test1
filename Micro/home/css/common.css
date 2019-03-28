@@ -1,0 +1,396 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+
+body {
+	background: #fff;
+}
+
+img {
+	vertical-align: middle;
+}
+
+ul li {
+	list-style: none;
+}
+
+input {
+	outline: none;
+    background: none;
+    border: none;
+}
+
+button {
+	outline: none;
+}
+
+a {
+	transition: .5s;
+	text-decoration: none !important;
+}
+@media only screen and (min-width: 100px) and (max-width: 640px) {
+	
+}
+
+@media only screen and (max-width: 767px){
+	.section2{
+		margin-top: 3rem;
+	}
+	.regin-box{
+		z-index: 999;
+	}
+	.tishi {
+	    margin-top: 1rem;
+	}
+	.box-bg {
+	    height: 32rem;
+	}
+}
+a:hover,
+a:focus {
+	text-decoration: none !important;
+}
+
+.text-center {
+	text-align: center;
+}
+
+button:focus {
+	border: 0px !important;
+}
+
+.red{
+	color:red;
+}
+.banner{
+	position: relative;
+}
+.banner img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+.banner .kaihu{
+	position: absolute;
+    top: 70%;
+    left: 22%;
+}
+.banner .kaihu ul li{
+	float: left;
+}
+.banner .kaihu ul li:nth-child(2){
+	margin-left: 3em;
+}
+.banner .kaihu ul li a{
+	color: #fff;
+}
+.banner .kaihu ul li:nth-child(1) a{
+	background:url(../img/btn-1.png) no-repeat;
+	display: inline-block;
+	width: 205px;
+    height: 66px;
+    line-height: 61px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 20px;
+}
+.banner .kaihu ul li:nth-child(2) a{
+	background:url(../img/btn-2.png) no-repeat;
+	display: inline-block;
+	width: 205px;
+    height: 66px;
+    line-height: 61px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 20px;
+}
+.banner .kaihu ul li:hover a{
+	-webkit-transition: all 0.2s ease-in-out;
+	-webkit-transform: translate(0, -4px);
+}
+.container {
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.nav-height .logo{
+	float: left;
+}
+
+.nav-height .logo img{
+	margin-top: 20px;
+}
+
+.header{
+	height: 78px;
+}
+
+.topbox {
+	/*background:url(../img/banner.jpg) no-repeat;
+	height: 794px;
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-width: 100%;*/
+}
+.banner img{
+	width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.nav-height {
+	position: relative;
+	height: 78px;
+}
+
+.nav-wrap {
+    margin-left: 192px;
+	float: left;
+	height: 50px;
+	background: #fff;
+}
+
+.nav-height .navFix {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #fff;
+    z-index: 99;
+}
+
+.nav-wrap ul {
+	padding: 0;
+	margin: 0 auto;
+	display: block;
+}
+
+.nav-wrap.navFix ul {
+	border-bottom: 0;
+}
+
+.nav-wrap li {
+	display: inline-block;
+	text-align: left;
+	height: 78px;
+	line-height: 78px;
+	float: left;
+}
+/*.nav-wrap li:nth-child(2){
+	margin-left: 70px;
+}*/
+
+.nav-wrap li a {
+	display: inline-block;
+    padding: 0 20px;
+    line-height: 78px;
+    color: #333;
+}
+
+.nav-wrap li .jiaoyi{
+	/*position: absolute;
+    top: 28px;*/
+    padding: 0px 20px 0px 20px;
+    cursor: pointer;
+}
+.nav-wrap li span{
+	padding: 0px 20px 0px 20px;
+    cursor: pointer;
+}
+/*
+.nav-wrap li a:hover {
+	background: #2b51b0;
+    color: #fff;
+}*/
+
+.nav-wrap li a.active {
+	background: #2b51b0;
+    color: #fff;
+}
+
+.nav-mobile {
+	display: none;
+	font-weight: bold;
+	width: 100%;
+}
+
+.click-me {
+	width: 150px;
+	height: 30px;
+	background: #4680d1;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+}
+
+.click-me a {
+	display: block;
+	color: white;
+}
+
+
+.nav-height .registration{
+	position: fixed;
+	right: 9%;
+    top: 2.5%;
+    display: block;
+    width: 86px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    border-radius: 4px;
+    background:#fd3232 ;
+    color: #fff;
+    z-index: 999;
+}
+.nav-height .registration:hover{
+	color: #fff;
+	background:#e15050;
+}
+.nav-height:hover .registrationa{
+	background:goldenrod;
+}
+
+/*footer*/
+.footer{
+	width: 100%;
+	height: 320px;
+	background: #0a0e1d;
+}
+.footer .cont1{
+	height: 135px;
+	margin-top: 55px;
+	border-bottom: 1px solid #151c31;
+}
+.footer .cont1-l{
+	float: left;
+}
+.footer .cont1 .call{
+	height: 50px;
+}
+.footer .cont1 .call ul li{
+	float: left;
+	margin-right: 120px;
+}
+.footer .cont1 .call ul li img{
+	float: left;
+	margin-top: 6px;
+	margin-right: 6px;
+}
+.footer .cont1 .call ul li p{
+	float: left;
+	color: #45598a;
+}
+.footer .cont1 .call ul li p span{
+	display: block;
+}
+.footer .cont1 .call ul li p span:nth-child(2){
+	font-weight: bold;
+	font-size: 18px;
+}
+.footer .cont1 .copyright{
+	margin-top: 10px;
+}
+.footer .cont1 .copyright p{
+	color: #45598a;
+	margin-bottom: 6px;
+}
+.footer .cont1 .copyright p a{
+	color: #45598a;
+	margin-right: 12px;
+}
+.footer .cont1 .copyright p a:hover{
+	color: #cfa35d;
+}
+.footer .cont1-r{
+	float: right;
+}
+.footer .cont1 .cont1-r img{
+	float: left;
+	margin-right: 6px;
+}
+.footer .cont1 .cont1-r p{
+	float: right;
+	writing-mode: vertical-lr;
+    writing-mode: tb-lr;
+    color: #45598a;
+}
+.footer .cont2 p{
+	color: #45598a;
+	text-align: center;
+	line-height: 28px;
+	margin-top: 30px;
+}
+/*分页*/
+#pageGro {
+    width: 700px;
+    height: 35px;
+    /*margin: 0px auto;*/
+    padding-top: 30px;
+}
+#pageGro div, #pageGro div ul li {
+    font-size: 14px;
+    line-height: 30px;
+    float: left;
+    margin-left: 5px;
+    color: #999;
+}
+#pageGro div ul li.on{
+	background: #248bd8;
+    color: #fff;
+    padding: 1px 6px 2px 6px;
+}
+#pageGro .pageUp, #pageGro .pageDown {
+    width: 65px;
+    border: 1px solid #999;
+    background: #fff;
+    cursor: pointer;
+    text-align: center;
+    transition: .5s;
+}
+#pageGro .pageUp a, #pageGro .pageDown a{
+	color: #999;
+}
+#pageGro .pageUp a:hover{
+	color: #fff;
+    background: #3c90d9;
+    border: 1px solid #3c90d9;
+}
+#pageGro .pageDown a:hover{
+	color: #fff;
+    background: #3c90d9;
+    border: 1px solid #3c90d9;
+}
+#pageGro div ul li a{
+	display: inline-block;
+    width: 30px;
+    text-align: center;
+    border: 1px solid #999;
+    color: #999;
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 0px;
+    background: #fff;
+}
+#pageGro div ul li a:hover{
+	color: #fff;
+    background: #3c90d9 !important;
+    border: 1px solid #3c90d9 !important;
+}
+#pageGro div ul li.on a{
+    color: #fff;
+    background: #3c90d9;
+    border: 1px solid #3c90d9;
+}
+#pageGro div ul li span{
+	margin: 0px 6px;
+}
